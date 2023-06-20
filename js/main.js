@@ -83,6 +83,32 @@
     });
 
 
+        // Header carousel
+        $(".brand").owlCarousel({
+            center: true,
+            autoplay:true,
+            autoplayTimeout:4000,
+            smartSpeed: 1000,
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    },
+            navText : [
+                '<i class="bi bi-chevron-left"></i>',
+                '<i class="bi bi-chevron-right"></i>'
+            ]
+        });
+    
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
