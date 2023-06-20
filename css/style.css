@@ -166,6 +166,10 @@
         height: 100%;
         object-fit: cover;
     }
+    .header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+        display: none !important;
+    }
 }
 
 .header-carousel .owl-nav {
@@ -190,6 +194,7 @@
     border: 1px solid #FFFFFF;
     font-size: 22px;
     transition: .5s;
+    display: inherit;
 }
 
 .header-carousel .owl-nav .owl-prev:hover,
@@ -252,6 +257,8 @@
     width: calc(100% + 60px);
     left: 0;
 }
+
+
 
 
 /*** Service ***/
